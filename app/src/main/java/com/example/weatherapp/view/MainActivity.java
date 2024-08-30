@@ -1,4 +1,4 @@
-package com.example.weatherapp;
+package com.example.weatherapp.view;
 
 import android.os.Bundle;
 import android.widget.SearchView;
@@ -7,6 +7,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.weatherapp.R;
 import com.example.weatherapp.viewmodel.WeatherViewModel;
 
 public class MainActivity extends AppCompatActivity {
